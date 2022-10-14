@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - block
- * Return: 0
+ *main - block
+ *Return: 0
  */
 int main(void)
 {
@@ -12,7 +12,7 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n < 0)
 {
-printf("%d is negative\n", n);
+printf("%d is negative\n", n)
 }
 else if (n == 0)
 {
@@ -22,5 +22,5 @@ else
 {
 printf("%d is positive\n", n);
 }
-return (0)
+return (0);
 }
